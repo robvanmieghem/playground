@@ -1,0 +1,11 @@
+[package]
+name = "dimacs"
+version = "0.1.0"
+edition = "2021"
+description = "Utility to parse the cnf DIMACS SAT format"
+
+[dependencies]
+anyhow = "1.0.86"
+
+[dev-dependencies]
+clap = { version = "4.5.4", features = ["derive"] }

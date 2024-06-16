@@ -1,0 +1,5 @@
+c This is a test cnf file
+ccomment without a space prefix
+p cnf 3 2
+1 -3 0
+2 3 -1 0
